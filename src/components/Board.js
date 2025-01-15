@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Square from './Square'
-import "./Board.css"
+import "./Board.css";
+
 const Board = ({squares, onClick}) => {
 
     const renderSquare = (i) => {
